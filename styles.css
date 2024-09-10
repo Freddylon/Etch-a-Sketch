@@ -1,0 +1,15 @@
+/* styles.css */
+#grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 960px; /* Ajusta el tamaño según tus necesidades */
+    height: 960px; /* Ajusta el tamaño según tus necesidades */
+    margin: 0 auto;
+}
+
+.grid-item {
+    width: calc(100% / 16);
+    height: calc(100% / 16);
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
